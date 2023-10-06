@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+<style>
+    .label{
+margin-left: 95px;
+
+    }
+    .checkbox{
+
+        margin-left: 100px;
+    }
+
+.required::after{
+    content:"*";
+    color: red;
+    font-size: 20px;
+    
+
+
+
+}
+</style>
+</head>
+<body>
+    <form>
+
+        <h3>shipping address</h3>
+        <div>
+        <label class="required"  for="text">number</label>
+        <input type="text" placeholder="eg:7391977570">
+    </div><br><br>
+    
+    <div>
+        <label for="company">company</label>
+        <input type="text" >
+    </div><br><br>
+    <div>
+        <label class="required"  for="name">country</label>
+        <input type="text" placeholder="eg:india">
+</div><br><br>
+<div >
+    <label for="address">address finder</label>
+    <input type="text" placeholder="victoria street,richmond vic,australia"><br><br>
+    <input class="label"   type="text" > 
+</div><br><br><br>
+<div>
+    <label class="required"    for="address">street address</label>
+    <input type="text" placeholder="eg:victoria street">
+</div><br><br>
+ <div>
+    <label  class="required"  for="suburb">suburb</label>
+    <input type="text" placeholder="richmond">
+</div><br><br>
+
+
+<div>
+    <label class="required"  for="postal code">postal code</label>
+    <input type="number">
+</div><br><br>
+<div>
+    <input   class="checkbox" type="checkbox" placeholder="3121">
+    <label  for="checkbox">save in adderess book</label>
+</form>
+    
+</body>
+</div>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+background-color: rgb(230, 252, 252);
+
+    }
+.box{
+    
+    height: 30px;
+    margin: 10px;
+}
+.box1{
+    background-color: rgb(198, 237, 238);
+    height: 30px;
+    margin: 10px;
+}
+.box2{
+    background-color: rgb(57, 57, 219);
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    color: white;
+
+}
+.button{
+    background-color: rgb(57, 57, 219);
+    
+    height: 30px;
+    margin: 5px;
+color: white;
+}
+
+</style>
+<body>
+    <a href="https://www.google.com/maps/@12.719555,77.8024164,15z?entry=ttu" target="_blank">
+        <button  class="button"> <img src="download.png" width="10px" height="10px"> Use my current location</button></a>
+       
+    <form>
+        
+        
+        <div>
+            
+        <input class="box" type="text"  placeholder="name" required>
+         
+        <input class="box" type="number"  placeholder="10digit mobile number" required min="6000000000" max="9999999999">
+    
+    
+</div>
+
+<div>
+   
+    <input class="box" type="text"  placeholder="pincode">
+     
+    <input class="box" type="text"  placeholder="Locality">
+
+
+</div>
+
+<textarea cols="50" rows="5" placeholder="Address (Area and street)"></textarea>
+
+<div>
+    
+    <input class="box" type="text"  placeholder="City/district/town">
+    
+    
+    <select class="box">
+        <option>---select state---</option>
+        <option>karnataka</option>
+        <option>goa</option>
+    </select>
+    
+    
+</div>
+
+<div>
+   
+    <input class="box" type="text"  placeholder="Landmark(Optional)">
+     
+    <input class="box1" type="text"  placeholder="Alternate Phone(Optional)" disabled>
+
+
+</div><br><br>
+<label>Address Type</label><br><br>
+<input type="radio" name="xyz">Home
+<input type="radio" name="xyz">work <br><br>
+
+
+<input class="box2" type="submit" value="SAVE">
+<input  style="border: none;
+background-color: rgb(230, 252, 252); ;" type="reset" value="CANCEL">
+</form>
+</body>
+</html>
